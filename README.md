@@ -1,5 +1,7 @@
 # Como instalar el script para que se ejecute cada vez que se inicia Windows
 
+Instalar Node.JS de ser necesario, version 16.13.0
+
 Estando en la carpeta raíz del proyecto:
 
 0. npm install
