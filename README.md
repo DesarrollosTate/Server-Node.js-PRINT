@@ -34,7 +34,7 @@ Instalar Node.JS de ser necesario, version 16.13.0 (ver como hacer instalacion d
     pm2 save
 ```
 
-### Instalacion de NVM
+## Instalacion de NVM
 
 1. Descargar NVM desde el siguiente link: https://github.com/coreybutler/nvm-windows#nvm-for-windows
 2. Una vez descargado verificar instalacion con 'nvm --v'
@@ -42,9 +42,9 @@ Instalar Node.JS de ser necesario, version 16.13.0 (ver como hacer instalacion d
 4. Una vez instalada la version vamos a hacer uso de la version con 'nvm use v16.13.0'
 5. Para ver si esta corriendo esa version de NVM ejecutar 'nvm list'. Verá en la pantalla las versiones de Node instaladas en la pc (En caso de tener otras versiones) y marcada con \* la version que esta en uso.
 
-### Posibles errores
+## Posibles errores
 
-## No se instala el npm install
+### No se instala el npm install
 
 Lo que hay que hacer en este caso es verificar que tengamos git descargado en nuestra maquina. Si no esta instalado hacer la respectiva instalacion y hacer la configuracion global de git que seria:
 
@@ -53,7 +53,7 @@ Lo que hay que hacer en este caso es verificar que tengamos git descargado en nu
 
 Volver a tirar npm install, si no se instala verificar que la version de Node sea la correcta (16.13.0). De ser dicha version tirar 'npm install --force'
 
-### Adicionales
+## Adicionales
 
 Para ver el estado del script corriendo: `pm2 status`
 Para apagar los scripts: `pm2 kill`
