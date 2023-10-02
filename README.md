@@ -1,12 +1,14 @@
 # Servidor NODE.JS impresion remota
 
-Instalar Node.JS de ser necesario, version 16.13.0 (ver como hacer instalacion de nvm mas abajo)
+Instalar Node.JS de ser necesario, version 16.13.0 (ver como hacer instalacion de NVM mas abajo)
 
 ## Estando en la carpeta raíz del proyecto:
 
 ```bash
     npm install
 ```
+
+Si no se instala ver posibles errores mas abajo.
 
 ### Instalacion de PM2
 
