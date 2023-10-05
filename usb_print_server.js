@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const exec = require("child_process").exec;
+const cors = require("cors"); // Importa el paquete cors
 const app = express();
 const nodePrinter = require("@thiagoelg/node-printer");
 
@@ -9,13 +10,16 @@ const port = 3000;
 
 app.use(bodyParser.text());
 
+// Configura CORS permitiendo solicitudes desde cualquier origen
+app.use(cors());
+
 // /imprimir?printer=ZDesigner GK420t
 app.post("/imprimir", (req, res) => {
   const { printer } = req.query;
   const codigoZPL = req.body;
 
   if (!printer)
-    return res.status(500).send("Nombre de impresora invalido (query printer)");
+    return res.status(500).send("Nombre de impresora inválido (query printer)");
 
   nodePrinter.printDirect({
     data: codigoZPL,
