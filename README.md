@@ -22,7 +22,7 @@ Si no se instala ver posibles errores mas abajo.
     pm2 start usb_print_server.js
 ```
 
-### Con esto deberia iniciar con Windows
+### Para arrancar con inicio de Window:
 
 Ubicar el archivo automatizacion.bat en el repositorio descargado, abrir ejecutar (Win + R), poner 'shell:strartup' , enter y copiar el archivo en la carpeta.
 
