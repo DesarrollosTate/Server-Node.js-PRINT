@@ -22,11 +22,9 @@ Si no se instala ver posibles errores mas abajo.
     pm2 start usb_print_server.js
 ```
 
-### Con esto deberia iniciar con Windows, para revertir usar 'pm2 cleardump'
+### Con esto deberia iniciar con Windows
 
-```bash
-    pm2 save
-```
+Ubicar el archivo automatizacion.bat en el repositorio descargado, abrir ejecutar (Win + R), poner 'shell:strartup' , enter y copiar el archivo en la carpeta.
 
 ## Instalacion de NVM
 
