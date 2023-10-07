@@ -16,14 +16,6 @@ Si no se instala ver posibles errores mas abajo.
     npm install -g pm2
 ```
 
-```bash
-    npm install pm2-windows-startup -g
-```
-
-```bash
-    pm2-startup installs
-```
-
 ### Arrancar el script
 
 ```bash
